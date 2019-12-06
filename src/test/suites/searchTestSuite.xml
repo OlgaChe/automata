@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Search Google">
+    <parameter name="baseUrl" value="google"></parameter>
+    <parameter name="searchQuery" value="selenide"></parameter>
+
+    <test name="PerformSearch">
+        <classes>
+            <class name="SearchTest">
+                <methods>
+                    <include name="searchTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
