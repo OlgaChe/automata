@@ -1,0 +1,2 @@
+# automata
+Framework structure example
